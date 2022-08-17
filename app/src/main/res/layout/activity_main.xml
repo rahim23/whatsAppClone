@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarMain"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#FF03DAC5"
+    />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF03DAC5"
+        android:theme="@style/ThemeCustom.TabLayout"
+        app:tabIndicatorColor="#FF000000"
+        app:tabTextColor="#FF000000"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-90dp"
+        android:contentDescription="@string/check_contacts"
+        android:src="@drawable/ic_account"
+       />
+
+
+</LinearLayout>

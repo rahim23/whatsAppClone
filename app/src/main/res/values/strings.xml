@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">whatsappclone</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_Password">Enter Your Password</string>
+
+    <string name="confirm_your_Password">Confirm Your Password</string>
+
+    <string name="login">login</string>
+    <string name="SignUp">SignUp</string>
+
+    <string name="Profile">Profile</string>
+    <string name="About_us">About Us</string>
+    <string name="Logout">Logout</string>
+    <string name="Update">Update</string>
+    <string name="Save">Save</string>
+
+
+    <string name="this_is_yourprofile">This is your Profile</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_status">Enter Your Status</string>
+    <string name="email">Email</string>
+    <string name="check_contacts">check Contacts</string>
+    <string name="name_of_the_user">name_of_the_user</string>
+    <string name="email_of_the_user">email_of_the_user</string>
+    <string name="status_of_the_user">Status of the User</string>
+    <string name="enter_the_message">enter the message</string>
+    <string name="sending_the_message">Sending The Message</string>
+    <string name="receivermessage">receivermessage</string>
+    <string name="sender_message">sender_message</string>
+    <string name="search">search</string>
+    <string name="add_friend">add_friend</string>
+    <string name="searchcontacts">searchContacts</string>
+
+
+</resources>

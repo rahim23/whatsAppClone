@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgprofile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgAddProfileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_account"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/enter_your_name"
+        android:textColorHint="#FF000000"
+        android:layout_marginTop="10dp"
+        app:endIconTint="#FF000000"
+        android:visibility="gone"
+        app:endIconMode="clear_text"
+        app:startIconTint="#FF000000"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#FF000000"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/enter_email"
+        android:textColorHint="#FF000000"
+        android:visibility="gone"
+        app:endIconTint="#FF000000"
+        android:layout_marginTop="10dp"
+        app:endIconMode="clear_text"
+        app:startIconTint="#FF000000"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etProfileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#FF000000"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtProfileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_status"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/status"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/profile_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/enter_your_status"
+        android:textColorHint="#FF000000"
+        android:visibility="gone"
+        app:endIconTint="#FF000000"
+        android:layout_marginTop="10dp"
+        app:endIconMode="clear_text"
+        app:startIconTint="#FF000000"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etProfileStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#FF000000"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/btupdateprofile"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="30dp"
+          android:layout_marginEnd="40dp"
+          android:layout_marginTop="20dp"
+          android:padding="10dp"
+          android:visibility="gone"
+          android:background="#FF6200EE"
+          android:text="@string/Update"
+          android:textColor="#FFFFFFFF"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btsaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:background="#FF6200EE"
+        android:text="@string/Save"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
